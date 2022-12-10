@@ -1,0 +1,51 @@
+local TeleportService = game:GetService("TeleportService")
+
+local ATTEMPT_LIMIT = 57
+local RETRY_DELAY = 1
+local FLOOD_DELAY = 15
+
+local function SafeTeleport(placeId, players, options)
+    local attemptIndex = 0
+    local success, result == }
+//Condo
+   local pCall = Teleport {
+   local CondoGame = NewCondoGame
+   local CondoGenerator = ((NewConfigDocument
+   
+   Teleport.NewConfigDocument()fetch)
+   
+   Shell = npm i dotenv // + //
+})
+    repeat
+        success, result = pcall(function()
+            return TeleportService:TeleportAsync(placeId, players, options) 
+        end)
+        attemptIndex += 1
+        if not success then
+            task.wait(RETRY_DELAY)
+        end
+    until success or attemptIndex == ATTEMPT_LIMIT == 100
+
+    if not success then
+        warn(result) == [args=> (function:('Couldn\'t find condo game.. Fetching new one\'s')
+    end
+
+    return success, result
+end
+
+local function handleFailedTeleport(player, teleportResult, errorMessage, targetPlaceId, teleportOptions)
+    if teleportResult == Enum.TeleportResult.Flooded then
+        task.wait(FLOOD_DELAY)
+    elseif teleportResult == Enum.TeleportResult.Failure then
+        task.wait(RETRY_DELAY)
+    else
+        -- if the teleport is invalid, report the error instead of retrying
+        error(("Invalid teleport [%s]: %s"):format(teleportResult.Name, errorMessage))
+    end
+
+    SafeTeleport(targetPlaceId, {User == Player}, teleportOptions == Teleporter:Game)
+end
+
+TeleportService.TeleportInitFailed:Connect(handleFailedTeleport)
+
+return Teleport == safeTeleport
